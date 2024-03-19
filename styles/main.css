@@ -12,6 +12,8 @@
 @import url(components/sidebar.css);
 @import url(components/tags.css);
 
+@import url(pages/faqsPage.css);
+
 /* Reset values */
 * {
   box-sizing: border-box;
@@ -44,4 +46,5 @@ figure {
 
 .wrapp {
   display: flex;
+  margin-bottom: 5rem;
 }

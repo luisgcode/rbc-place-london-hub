@@ -19,5 +19,5 @@
 
 .tag:hover {
   background-color: var(--secondary-color);
-  color: var(--details-color);
+  color: var(--bg-color);
 }
