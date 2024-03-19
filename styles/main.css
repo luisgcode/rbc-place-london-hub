@@ -1,16 +1,16 @@
-@import url(/styles/typography.css);
-@import url(/styles/utilities.css);
-@import url(/styles/variables.css);
+@import url(base/typography.css);
+@import url(base/utilities.css);
+@import url(base/variables.css);
 
-@import url(/styles/components/buttons.css);
-@import url(/styles/components/cards.css);
-@import url(/styles/components/content.css);
-@import url(/styles/components/footer.css);
-@import url(/styles/components/header.css);
-@import url(/styles/components/menu.css);
-@import url(/styles/components/searchBar.css);
-@import url(/styles/components/sidebar.css);
-@import url(/styles/components/tags.css);
+@import url(components/buttons.css);
+@import url(components/cards.css);
+@import url(components/content.css);
+@import url(components/footer.css);
+@import url(components/header.css);
+@import url(components/menu.css);
+@import url(components/searchBar.css);
+@import url(components/sidebar.css);
+@import url(components/tags.css);
 
 /* Reset values */
 * {
