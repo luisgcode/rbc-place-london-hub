@@ -1,0 +1,15 @@
+.content {
+  margin-left: 25rem;
+  width: 100%;
+  max-width: 1600px;
+  padding-top: 2.3rem;
+}
+
+.content_header_title {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--borders-color);
+}
+
+.content_main {
+  padding: 3rem 0;
+}

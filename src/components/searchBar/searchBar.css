@@ -1,0 +1,20 @@
+.search_bar {
+  position: relative;
+  margin-top: 1rem;
+}
+
+.searchbar {
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid var(--borders-color);
+  padding: 1rem;
+  width: 45rem;
+  max-width: 100%;
+  padding-left: 5rem;
+}
+
+.fa-magnifying-glass {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+}

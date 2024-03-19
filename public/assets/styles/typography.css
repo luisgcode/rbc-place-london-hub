@@ -1,0 +1,40 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: var(--primary-color);
+  background: red;
+  font-size: var(--regular-text);
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  color: var(--primary-color-light);
+}
+
+h1,
+h2,
+h3,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: var(--primary-text);
+}
+
+h2 {
+  font-size: var(--secondary-text);
+}
+
+h3 {
+  font-size: var(--tertiary-text);
+}

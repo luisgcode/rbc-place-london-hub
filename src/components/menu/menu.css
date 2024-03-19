@@ -1,0 +1,25 @@
+.menu {
+  position: fixed;
+  height: 100vh;
+  width: auto;
+  padding: 3rem 3rem;
+  border-right: 1px solid var(--borders-color);
+}
+
+.menu_header {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--borders-color);
+}
+
+.menu_ul {
+  margin-top: 5rem;
+}
+
+.menu_ul li {
+  margin-bottom: 2rem;
+}
+
+.menu_ul li a {
+  border-bottom: 1px solid var(--borders-color);
+  padding-bottom: 0.5rem;
+}
