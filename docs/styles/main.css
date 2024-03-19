@@ -1,0 +1,48 @@
+@import url(/docs/styles/typography.css);
+@import url(/docs/styles/utilities.css);
+@import url(/docs/styles/variables.css);
+@import url(/docs/src/components/buttons/buttons.css);
+@import url(/docs/src/components/cards/cards.css);
+@import url(/docs/src/components/content/content.css);
+@import url(/docs/src/components/footer/footer.css);
+@import url(/docs/src/components/header/header.css);
+@import url(/docs/src/components/menu/menu.css);
+@import url(/docs/src/components/searchBar/searchBar.css);
+@import url(/docs/src/components/sidebar/sidebar.css);
+@import url(/docs/src/components/tags/tags.css);
+@import url(/docs/src/pages/home/homePage.css);
+@import url(/docs/src/pages/skirtingChart/skirtingChart.css);
+
+/* Reset values */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg-color);
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapp {
+  display: flex;
+}
