@@ -1,6 +1,6 @@
-@import url(/public/assets/styles/typography.css);
-@import url(/public/assets/styles/utilities.css);
-@import url(/public/assets/styles/variables.css);
+@import url(/styles/typography.css);
+@import url(/styles/utilities.css);
+@import url(/styles/variables.css);
 @import url(/src/components/buttons/buttons.css);
 @import url(/src/components/cards/cards.css);
 @import url(/src/components/content/content.css);
