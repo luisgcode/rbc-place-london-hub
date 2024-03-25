@@ -49,3 +49,10 @@
   border-radius: 5px;
   letter-spacing: 1px;
 }
+
+@media (max-width: 650px) {
+  .content_main_cards {
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -48,3 +48,9 @@ figure {
   display: flex;
   margin-bottom: 5rem;
 }
+
+@media (max-width: 650px) {
+  .wrapp {
+    padding: 1rem;
+  }
+}
