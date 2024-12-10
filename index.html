@@ -6,35 +6,37 @@
     <title>Login web</title>
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/main.css" />
+
+    <link rel="stylesheet" href="./styles//pages/index.css" />
   </head>
   <body>
-    <div class="wrapp">
-      <div class="content">
-        <main class="content_main">
-          <form>
-            <h3>Login user</h3>
-            <br />
-            <label for="username">Username</label>
-            <input
-              type="email"
-              placeholder="Email or phone"
-              id="email"
-              required
-            />
+    <main>
+      <h3>Login user</h3>
+      <form>
+        <div class="form-row">
+          <label for="username">Username</label>
+          <input
+            type="email"
+            placeholder="is= testing@gmail.com"
+            id="email"
+            required
+          />
+        </div>
 
-            <label for="password">Password</label>
-            <input
-              type="password"
-              placeholder="Password"
-              id="password"
-              required
-            />
+        <div class="form-row">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            placeholder="is= testing@gmail.com"
+            id="password"
+            required
+          />
+        </div>
 
-            <button id="submit" type="submit">Login</button>
-          </form>
-        </main>
-      </div>
-    </div>
+        <button id="submit" type="submit">Enter</button>
+      </form>
+    </main>
+
     <footer class="footer"></footer>
 
     <script type="module">
